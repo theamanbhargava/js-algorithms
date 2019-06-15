@@ -34,10 +34,12 @@ const factorial = number => {
         res = multiply(res, i.toString())
     }
     performance.mark('Ending Factorial')
-    return parseInt(res)
+    return res
 }
 
-console.log(factorial(10))
+console.log(factorial(100).split("").reduce(function(a,b) {
+    return a+parseInt(b);
+},0)) // number of digits
 
 performance.measure('Factorial calculation time', 'Beginning factorial', 'Ending Factorial')
 
