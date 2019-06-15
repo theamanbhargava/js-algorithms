@@ -44,9 +44,9 @@ const numberToString = (number) => {
 }
 
 for (let i = 1; i < 1001; i++) {
-  numbersToStrings[i] = numberToString(i).replace(/\s+/g, '')
+  numbersToStrings[i] = numberToString(i).replace(/\s+/g, '') // remove whitespace
 }
 
 const reducer = (acc, curr) => acc + curr.length
 
-console.log(numbersToStrings.reduce(reducer, 0))
+console.log(numbersToStrings.reduce(reducer, 0)) // calculate length
