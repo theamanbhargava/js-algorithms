@@ -12,7 +12,7 @@ obs.observe({entryTypes: ['measure']})
 
 const factors = number => {
     let factors = []
-    for(let i = 1; i < Math.ceil(number / 2 + 1); i++){
+    for(let i = 1; i < Math.ceil(Math.sqrt(number) + 1); i++){
         if(number % i === 0) {
             factors.push(i)
         }
