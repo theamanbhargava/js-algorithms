@@ -43,3 +43,5 @@ console.log(factorial(100).split("").reduce(function(a,b) {
 
 performance.measure('Factorial calculation time', 'Beginning factorial', 'Ending Factorial')
 
+module.exports = multiply
+
