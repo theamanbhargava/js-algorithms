@@ -1,0 +1,22 @@
+{
+  "name": "jsalgos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "project-euler-17.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theamanbhargava/js-algorithms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theamanbhargava/js-algorithms/issues"
+  },
+  "homepage": "https://github.com/theamanbhargava/js-algorithms#readme",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}

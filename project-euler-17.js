@@ -29,7 +29,7 @@ const map = {
   100: 'hundred'
 }
 
-let numbersToStrings = []
+const numbersToStrings = []
 
 const numberToString = (number) => {
   if (number < 21) { return `${map[number]}` }
